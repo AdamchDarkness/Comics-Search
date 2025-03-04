@@ -77,9 +77,7 @@ A full-stack project for managing and searching comics. This project extracts co
 ## Usage
 
 	- *Search Page*:
-		The search page provides a search bar and filters to query comics.\
- It calls the Laravel API endpoint at http://comicssearch.test/api/search to retrieve data from Elasticsearch.
+		The search page provides a search bar and filters to query comics.It calls the Laravel API endpoint at http://comicssearch.test/api/search to retrieve data from Elasticsearch.
 	- *Cover Images:*:
-		The front-end builds cover image URLs from the cover_path field and requests them via the Laravel API endpoint /api/covers/{filename}. \
-Make sure your Laravel API can access and serve images from your NAS.
+		The front-end builds cover image URLs from the cover_path field and requests them via the Laravel API endpoint /api/covers/{filename}. Make sure your Laravel API can access and serve images from your NAS.
 	
