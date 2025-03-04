@@ -30,7 +30,7 @@ A full-stack project for managing and searching comics. This project extracts co
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/YourUsername/ProjectComicsSearch.git
+   git clone [https://github.com/AdamchDarkness/Comics-Search-.git]
    cd ProjectComicsSearch/backend
 	```
 
