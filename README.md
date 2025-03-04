@@ -59,6 +59,9 @@ A full-stack project for managing and searching comics. This project extracts co
 	```
 	
 ### Front-End
+
+![image](https://github.com/user-attachments/assets/2eac288d-14f6-4d8c-b78d-0b00b28279e1)
+
 	1. **Clone the repository (if not already cloned):**
 	2. **Install dependencies:**
  
