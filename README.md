@@ -61,19 +61,25 @@ A full-stack project for managing and searching comics. This project extracts co
 ### Front-End
 	1. **Clone the repository (if not already cloned):**
 	2. **Install dependencies:**
+ 
    ```bash
    npm install
 	```
+
 	3. **Start the development server:**
+
 	```bash
    npm run dev
 	```
+
 	The front-end should be accessible on the port specified by Vite (e.g., http://localhost:5173).
 
 ## Usage
 
 	- *Search Page*:
-		The search page provides a search bar and filters to query comics. It calls the Laravel API endpoint at http://comicssearch.test/api/search to retrieve data from Elasticsearch.
+		The search page provides a search bar and filters to query comics.\
+ It calls the Laravel API endpoint at http://comicssearch.test/api/search to retrieve data from Elasticsearch.
 	- *Cover Images:*:
-		The front-end builds cover image URLs from the cover_path field and requests them via the Laravel API endpoint /api/covers/{filename}. Make sure your Laravel API can access and serve images from your NAS.
+		The front-end builds cover image URLs from the cover_path field and requests them via the Laravel API endpoint /api/covers/{filename}. \
+Make sure your Laravel API can access and serve images from your NAS.
 	
